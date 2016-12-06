@@ -1,0 +1,794 @@
+/* sub-style
+各サイト特有のCSSを記述
+*/
+
+
+/*デフォルト設定変更*/
+
+body {
+    font-family: Helvetica, "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    color: #333333;
+    //background-color: #fffde8;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    //margin: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+#main-content {
+    padding-top: 0.5em;
+}
+
+.sub-title {
+    font-size: 30px;
+    border-bottom: solid 1px;
+}
+
+.sub-title-skin {
+    color: #00718e;
+    font-weight: 700;
+    padding: 5px 10px 10px 20px;
+    border-color: #00718e;
+}
+
+
+/*home*/
+
+.home-top-section {
+    padding-top: 0px;
+}
+
+.home-top-img-skin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home-sub-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.home-sub-title-skin {
+    color: #00718e;
+    font-weight: 700;
+    padding: 5px 10px 10px 20px;
+    border-color: #00718e;
+}
+
+.home-sub-text {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.home-sub-text-skin {}
+
+.bnr-img-row {}
+
+.bnr-img-row-skin {}
+
+.bnr-img-row-skin .weluka-img {
+    margin-bottom: 0px;
+}
+
+.bnr-img {}
+
+.bnr-img-skin {}
+
+.bnr-name {
+    font-size: 15px;
+}
+
+.bnr-name-skin {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.list-rss {
+    list-style: none;
+    font-size:
+}
+
+.list-rss li {
+    list-style: none;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.list-rss li:last-child {
+    border-bottom: 0px solid;
+}
+
+.list-rss-skin {}
+
+
+/*lp-solution*/
+
+.weluka-parallax .lp-solution-under-section {}
+
+.weluka-parallax .lp-solution-under-section-skin {
+    padding: 0.5em 0;
+}
+
+
+/*interview-staff*/
+
+.link-youtube {
+    font-size: 30px;
+}
+
+.link-youtube-skin {
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.staff-name {
+    font-size: 25px;
+    font-weight: 700
+}
+
+.staff-name-skin h4 {
+    position: relative;
+    padding-left: 24px;
+    line-height;
+    41px;
+}
+
+.staff-name-skin h4:before {
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    width: 15px;
+    height: 15px;
+    background: #333;
+    content: "";
+}
+
+.staff-q {
+    font-weight: 500;
+}
+
+.staff-q-skin {
+    margin-top: 30px;
+    border-bottom: solid 1px;
+}
+
+.staff-q h6:first-letter {
+    font-size: 40px;
+}
+
+.staff-a {
+    font-weight: 500;
+}
+
+.staff-a-skin {
+    margin-bottom: 50px;
+}
+
+.staff-a h6:first-letter {
+    font-size: 40px;
+}
+
+.staff-a-skin h6:first-letter {
+    color: #ff0000;
+}
+
+
+/*person*/
+
+.person-name {
+    font-size: 25px;
+    font-weight: 700
+}
+
+.person-name-skin {}
+
+.person-text {}
+
+.person-text-skin {}
+
+
+/*inquary*/
+
+.step-header {
+    font-size: 25px;
+}
+
+.step-header-skin {
+    color: #fff;
+    background-color: #00718e;
+    padding: 2px 10px;
+}
+
+.step-body {}
+
+.step-body-skin {}
+
+
+/*question*/
+
+.question {}
+
+.question h4 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.question li {
+    list-style: none;
+}
+
+.question-skin {}
+
+.question-skin h4 {
+    ;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.question-skin a:link {
+    border: medium none;
+    color: #1b5485;
+    text-decoration: underline;
+}
+
+.answer {}
+
+.answer h4 {
+    font-size: 25px;
+}
+
+.answer-skin {
+    margin-top: 50px;
+}
+
+.answer-skin h4 {
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.answer-skin .response {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+
+/*job=person*/
+
+.job-name {
+    font-size: 25px;
+    font-weight: 700
+}
+
+.job-name-skin h4 {
+    position: relative;
+    padding-left: 24px;
+    line-height;
+    41px;
+}
+
+.job-name-skin h4:before {
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    width: 15px;
+    height: 15px;
+    background: #333;
+    content: "";
+}
+
+.job-text-row {
+    margin-top: 0px;
+}
+
+.job-text-row-skin {}
+
+.job-text {}
+
+.job-text-skin {}
+
+.job-photo-text {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.job-photo-text-skin {}
+
+
+/*Table*/
+
+.table-row {}
+
+.table-row-skin {
+    background-color: #5f8995;
+}
+
+.table-clm-ht {
+    border: solid 1px;
+}
+
+.table-clm-ht-skin {
+    color: #ffffff;
+    background-color: #5f8995;
+    border-color: #5f8995;
+}
+
+.table-clm {
+    border: solid 1px;
+}
+
+.table-clm-skin {
+    background-color: #ffffff;
+    border-color: #00718e;
+}
+
+
+/*contactform*/
+
+.contactform-accept {
+    text-align: center;
+}
+
+.contactform-accept-skin {}
+
+.contactform-btn-send {
+    text-align: center;
+}
+
+.contactform-btn-send-skin {}
+
+.contactform-btn-send-skin .weluka-btn {
+    padding: 5px 60px;
+}
+
+
+/*menu*/
+
+.navbar-brand {
+    width: 60%;
+    text-align: right;
+}
+
+.menu-common-row {}
+
+.menu-common-row-under {
+    display: none;
+}
+
+.menu-common {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.menu-common-skin {
+    margin-top: 35px;
+}
+
+.menu-common li {
+    line-height: 15px;
+    border-right: 1px solid;
+}
+
+.menu-common-skin li {
+    color: #000;
+    border-color: #000;
+}
+
+.menu-common-under li {
+    color: #fff;
+    border-color: #fff;
+}
+
+.menu-common li a {
+    line-height: 1px;
+}
+
+.menu-common-skin li a {
+    color: #000;
+    margin: 0px 5px;
+}
+
+.menu-common-under li a {
+    color: #fff;
+    margin: 0px 10px;
+}
+
+.menu-common li:last-child {
+    border: 0;
+}
+
+
+/*LPPG SECTION*/
+
+.lppg-top-section .weluka-content {
+    margin-bottom: 0px;
+}
+
+.ttl-recruit h3 {
+    font-size: 25px;
+    color: #00718e;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lppg-top-section {
+    background-color: #00718e;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.lppg-top-img {
+    margin: 0px
+}
+
+.lppg-top-img-normal {}
+
+.lppg-top-clm {
+    background: rgba(9, 99, 123, 0.5);
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.lppg-top-text {
+    list-style: none;
+    font-size: 14px;
+}
+
+.lppg-top-text-normal {}
+
+.lppg-top-text li {
+    color: #ffffff;
+    font-size: 14px;
+    list-style: none;
+    padding-left:65px;
+    text-indent:-65px;
+}
+
+
+
+/*LPDC PAGE*/
+
+.lpdc-ttl-txt h3 {
+    color: #00b7ee;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.lpdc-top-section {
+    background-color: #00b7ee;
+    padding: 0;
+}
+.lpdc-toptxt-txt {
+    background-color: rgba(0, 157, 230, 0.5);
+    width: 100%;
+    padding: 10px;
+}
+.lpdc-toptxt-txt li {
+    color: #ffffff;
+    font-size: 14px;
+    list-style: none;
+    padding-left:70px;
+    text-indent:-70px;
+}
+
+.lpdc-banner-clm {
+    padding: 0;
+}
+
+.lpdc-banner-img {
+    margin: 0;
+}
+
+.lpdc-top_ttl-txt {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lpdc-dtl-section{
+   font-size:16px
+}
+
+
+.lpdc-dtl-ttl-txt{
+    color: #00b7ee;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.lpdc-dtl-clm {
+    margin-top: 5%;
+}
+
+.lpdc-line-section {
+    padding: 0;
+}
+
+.lpdc-challenge-section {
+    background-color: #ccf1fc;
+}
+
+.lpdc-chh-txt {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 20px 10px 15px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+
+.lpdc-chh-txt-normal {
+    background: #00b7ee url(/recruit/wp-content/uploads/head-triangle.png) no-repeat 97% 50%;
+    font-weight: bold;
+    color:#fff;
+}
+
+
+.lpdc-chb-txt {
+    font-size: 16px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 15px 20px 30px 20px;
+    margin: 0px;    
+}
+
+.lpdc-chb-txt-normal {
+    background-color: #ccf1fc;
+    font-weight: bold;
+}
+
+
+
+.lpdc-youtube-section {
+    background-color: #ccf1fc;
+}
+
+.lpdc-challenge-txt {
+    font-size: 16px;
+}
+
+.lpdc-youtube-txt {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/*LPPG-REGION*/
+
+.region-section {
+    background-color: #006f8c;
+}
+
+.region-text {
+    text-align: center;
+    color: #ffffff;
+}
+
+.region-text h3 {
+    font-size: 30px;
+    color: #fff4cc;
+}
+
+.region-text p {
+    font-size: 16px;
+}
+
+.region-text span {
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #fff4cc;
+}
+
+.region-text ul {
+    margin-top: 30px;
+}
+
+.region-text li {
+    list-style: none;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+
+/*LPPG-DETAIL-SECTION*/
+
+
+/*to be deleted*/
+
+.lppg-detail-bg {
+    background-image: url('/recruit/wp-content/uploads/detail_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.lppg-detail h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.lppg-detail p {
+    font-size: 13px;
+}
+
+
+/*LPPG-CHALLENGE-SECTION*/
+
+.lppg-challenge {
+    font-size: 14px;
+}
+
+.challenge-head-text-skin {
+    background: #00718e url("/recruit/wp-content/uploads/head-triangle.png") no-repeat 98% 60%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.challenge-head-text {
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.challenge-body-text-skin {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #fff4cc;
+}
+
+.challenge-body-text {
+    margin: 0px;
+    padding-left: 12px;
+    padding-top: 15px;
+    /*
+height: 165px;
+*/
+    font-size: 13px;
+}
+
+
+/*LPPG-YOUTUBE-SECTION*/
+
+.lppg-youtube-section {
+    background-color: #fff4cc;
+}
+
+.lppg-youtube p {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/*wekukの強制されてる箇所を上書き*/
+
+.weluka-navbar-default a {
+    color: #fff!important;
+}
+
+.weluka-navbar-default {
+    background-color: #434343;
+    border-color: #434343;
+}
+
+
+/*footer*/
+
+.weluka-custom-footer .weluka-section {
+    padding: 0.5em 0;
+}
+
+.footer-security-logo {
+    text-align: center;
+}
+
+
+/* 768px以上 */
+
+@media (min-width: 768px) {
+    .home-top-img-skin {
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    .step-header-skin {
+        width: 33.33%;
+    }
+    .ttl-recruit h3 ,.lpdc-ttl-txt h3 {
+        font-size: 30px;
+    }
+    
+    .lppg-detail p,
+    .region-text li,
+    .challenge-body-text {
+        font-size: 16px;
+    }
+    .menu-common-row-under {
+        display: block;
+        background-color: #434343;
+        margin-bottom: 30px;
+    }
+    .navbar-brand {
+        display: none;
+    }
+}
+
+
+/* 992px以上 */
+
+@media (min-width: 992px) {
+    /*LP-PG の相対配置のため必要*/
+    
+   
+    .lppg-top-section, .lpdc-top-section {
+        position: relative;
+    }
+   
+    .lppg-top-row {
+        position: absolute;
+        bottom: 30px;
+        left: 300px;
+    }
+    
+    .lpdc-toptxt-txt {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    
+}
+
+
+/* 1199px以上 */
+
+@media (min-width: 1199px) {
+    .lppg-top-section, .lpdc-top-section {
+        position: relative;
+    }
+    .lppg-top-row {
+        position: absolute;
+        bottom: 30px;
+        left: 400px;
+    }
+   
+    .lpdc-toptxt-txt{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+   
+}
+

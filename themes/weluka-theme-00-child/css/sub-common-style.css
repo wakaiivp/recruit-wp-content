@@ -1,0 +1,155 @@
+/*
+common-sub-style.css
+共通使用するCSS設定
+*/
+/*スマホでブレ対策*/
+@media (max-width: 991px) {
+    #main > .weluka-container-fluid,
+    #main > .weluka-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .topnav-clm {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/* ハンバーガーメニュー調整*/
+
+@media (max-width: 767px) {
+    .header-menu-clm .weluka-wpmenu {
+        position: relative;
+    }
+    /*.header-menu-clm .navbar-header*/
+    .header-menu-clm .navbar-header {
+        // position: fixed; /*ついてくるヘッダ用*/
+        position: relative;
+        z-index: 999;
+        width: 100%;
+        left: 0;
+        top: -90px;
+    }
+    . weluka-nav-bar-v {
+        /*display: none;
+        メニューの表示非表示の操作はwekukaに直接設定
+        */
+        background-color: #252525;
+    }
+
+}
+
+
+/*TOPに戻るボタン*/
+
+#pageTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+#pageTop a {
+    display: block;
+    z-index: 9999;
+    padding: 7px 0 0 1px;
+    border-radius: 3px;
+    width: 53px;
+    height: 53px;
+    background-color: #00718e;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+#pageTop a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+
+/*Googleスプレッドシート設定*/
+
+.igsv-table {
+    border: medium solid #333;
+}
+
+.igsv-table .odd {
+    border-right: medium solid #333;
+}
+
+.igsv-table th.odd {
+    border-right: 0px;
+}
+
+.igsv-table tr.odd {
+    /* styles for odd-numbered rows   (row 1, 3, 5...) */
+    background-color: #eeeeee;
+}
+
+.igsv-table tr.even {
+    /* styles for even-numbered rows  (row 2, 4, 6...) */
+    background-color: #fff;
+}
+
+.igsv-table td.odd,
+.igsv-table td.even {
+    /* styles for odd-numbered cells  (column 1, 3, 5...) */
+    font-size: 20px;
+    padding: 20px;
+    vertical-align: center;
+}
+
+.igsv-table thead tr.odd {
+    /*見出し背景*/
+    background-color: #e03730;
+}
+
+.igsv-table thead th {
+    /*見出しテキスト*/
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 35px;
+}
+
+.fadeInDown {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+
+

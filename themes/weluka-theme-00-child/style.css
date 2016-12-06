@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*
+Template: weluka-theme-00
+Theme Name: Weluka Theme 00 child
+Theme URI: http://www.weluka.me/
+Author: Weluka Team
+Author URI: https://www.weluka.me/
+Description: weluka plugins theme 00.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, weluka, responsive-layout, featured-images, custom-menu, bootstrap, custom-header, custom-footer, editor-style, webfont, threaded-comments
+*/
+@import url("../weluka-theme-00/style.css");  /* こちらで親テーマのstyleを継承 */
+
+/* 独自cssを追加する場合はこのファイルに記述 */
